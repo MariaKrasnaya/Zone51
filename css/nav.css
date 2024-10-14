@@ -1,0 +1,40 @@
+nav{
+background: rgb(0, 0, 0); /* background цвет фона */
+border: 1px solid rgb(255, 67, 4); /* border - обводка */
+border-radius: 25px;
+width: 300px; /* ширина нашей коробочки */
+position: fixed; /* фиксация позиции блока */
+top: 20px;
+left: 10pt;
+padding: 10px; /* внутренний отступ */
+opacity: 0.1;
+transition: all 0.5 ease; /* ease - плавность анимации */
+overflow-y: scroll; /* по вертикали прокрутка */
+height: 90vh; /* высота видимой величины экрана */
+display: block;
+padding-bottom: 10px; /* внутренний нижний отступ */
+}
+
+nav:hover {
+  opacity: 1; /* 100% */
+  transition: all 0.1s ease;
+}
+
+nav a {
+margin: 0px;
+font-family: "BrutalType";
+font-size: 25px;
+color: aliceblue;
+/* font-weight: bold; */
+font-size: 14 !important; /* important - обознает приоритетность */
+word-break: break-word; /* чтобы слова не переносились по слогам, а целиком оставались */
+/* padding-left: 20px; */
+text-decoration: none; /* чтобы не было подчеркивания и обводки */
+}
+
+nav p{
+font-family: "BrutalType";
+font-size: 25px;
+color:  rgb(255, 67, 4);
+
+}
